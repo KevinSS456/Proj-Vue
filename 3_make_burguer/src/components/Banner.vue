@@ -22,7 +22,17 @@ export default {
         color: white;
         text-align: center;
         font-size: 60px;
-        background-color: #222;
+        background-color: #22222267;
         padding: 20px 40px;
+    }
+    @media (max-width: 700px){
+        #main-banner{
+            background-position: 0 -125px;
+            height: 250px;
+        }
+        #main-banner h1{
+            font-size: 30px;
+            padding: 10px 20px;
+        }
     }
 </style>

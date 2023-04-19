@@ -41,4 +41,9 @@ export default {
     margin-bottom: 30px;
     color: #222;
   }
+  @media (max-width: 700px){
+    h1{
+      font-size: 35px;
+    }
+  }
 </style>
